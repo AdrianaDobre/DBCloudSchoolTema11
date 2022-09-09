@@ -1,0 +1,145 @@
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #c6dfbe;
+    font-family: "Times", "Times New Roman", serif;
+}
+header img {
+    max-width: 100%;
+}
+
+.logo {
+    flex-basis: 10%;
+}
+
+.title {
+    font-size: 80px;
+    padding-left: 20px;
+    font-style:italic;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-weight: 400;
+    color: #33cca6;
+}
+
+.container-fluid {
+    display: flex;
+    width: 90%;
+    background-color: #33cccc;
+}
+  
+.nav {
+    flex: 20%;
+    border-right: 15px solid #c6dfbe;
+    display: inline-block;
+    text-align: center;
+}
+
+.main{
+    flex:80%;
+    display: inline-block;
+    text-align: center;
+}
+
+.thisyear {
+    margin-top: 120px;
+}
+
+.dropdown, .trending {
+    margin-top: 60px;
+}
+
+.nav .btn {
+    background-color: 	#737373;
+    border: 2px solid #0f3d3d;
+    width: 200px;
+    color: black;
+}
+
+.main h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 42px;
+	line-height: 42px;
+	text-shadow: 0 5px #adebeb, 0 5px #adebeb;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 40px; 
+    background-color: #adebeb;
+    width: 80%;
+    border: 5px solid black;
+}
+
+.card img {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+
+.card .card-body{
+    margin-bottom: 30px;
+}
+
+.card .card-body h5 {
+	font-size: 42px;
+	line-height: 42px;
+	text-shadow: 0 5px #33cccc, 0 5px #33cccc;
+}
+
+.card .card-text{
+    font-size: 20px;
+}
+
+.card .list-group-item {
+    background-color: #33cccc;
+    border-top: 5px solid black;
+    font-size: 17px;
+}
+
+.card .list-group-item:first-child {
+    border-top: none;
+}
+
+.card .list {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    border: 5px solid black;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.div-pagination {
+    float: right;
+    padding: 20px;
+}
+
+.div-pagination .pag {
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.page-item:first-child .page-link {
+    border-radius:100px;
+    font-weight: bold;
+}
+.page-item .page-link{
+    color: black;
+    border-radius:100px;
+    background-color: #adebeb;
+    border: 2px solid black;
+}
+
+.page-item:last-child .page-link {
+    border-radius:100px;
+    font-weight: bold;
+}
